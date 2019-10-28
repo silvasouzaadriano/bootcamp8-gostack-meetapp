@@ -2,13 +2,17 @@
     MEETAPP challenge
 </h1>
 
+<h4 align="center">
+  A challenge for [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) Certificate
+</h4>
+
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16.3][nodejs] or higher + [Yarn v1.19.1][yarn] or higher installed on your computer. 
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.19][yarn] or higher installed on your computer. 
 
 NOTE: The mobile application only was tested using Android Studio emulator. However, as the react native compile for both Android and IOS its expected it running in both application.
 
-### Install API
+### Install Backend
 ```bash
 # Clone this repository
 $ git clone https://github.com/silvasouzaadriano/bootcamp8-gostack-meetapp
