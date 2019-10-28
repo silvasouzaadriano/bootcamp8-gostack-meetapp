@@ -36,10 +36,10 @@ $ docker run --name meetapp_redis -p 6379:6379 -d -t redis:alpine
 $ Replace the .env.EXAMPLE to .env
 
 # Mail
-$ In the .env must be changed the user and password regarding on section mail according to created on https://mailtrap.io. Note that this approach was used to simulate the email sending regarding to notifications. The suggestion is to Log in the Mailtrap and create an Inbox called Meetapp then access the inbox created for get the credencials which must be used on on .env, section Mail.
+In the .env must be changed the user and password regarding on section mail according to created on https://mailtrap.io. Note that this approach was used to simulate the email sending regarding to notifications. The suggestion is to Log in the Mailtrap and create an Inbox called Meetapp then access the inbox created for get the credencials which must be used on on .env, section Mail.
 
 # Run Migrates
-$ yarn migrate
+$ yarn sequelize db:migrate
 
 # Run the API
 $ yarn dev
