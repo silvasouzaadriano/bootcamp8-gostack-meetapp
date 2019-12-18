@@ -1,10 +1,22 @@
 <h1 align="center">
-    MEETAPP challenge
+    MEETAPP challenger
 </h1>
 
-<h4 align="center">
-  A challenge for [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) Certificate
-</h4>
+
+## A challenger for [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) Certificate
+
+
+## Concepts
+
+- The application created is a event agregator for developers called Meetapp (acronymous for Meetup + App). It means that users will be able to create it owns meetups and also participate in meetups which were not created by the same user logged.
+- The backend application its an API which will allow: create, update and authenticate users (using encryption for password); create, update and list meetups; create, update and list subscription in meetups; notify meetup onwers, via e-mail, about new subscriptions; upload meetup banner and user avatar
+- By the the frontend and mobile applications will be possible the user sign up and manage it profile.
+- By the front end and mobile applications will be possible the user sign up and manage it profile.
+- Complementing the fuctionalities regarding to sign up / sign in, the front end and mobile applications has distinct utilizations:
+
+  1) The frontend was developed only to allow users to create and manage meetups.
+  2) The mobile application was built only to allow users to subscribe to meetups which they are not ornanizing.
+
 
 ## How To Use
 
@@ -78,7 +90,13 @@ $ yarn react-native-run-ios (if you are running the application by MacOS)
 
 
 # Run the mobile
-$ yarn react-native start
+- For Android
+  $ adb reverse tcp:3333 tcp:3333
+  $ yarn react-native run-android
+  $ yarn react-native start
+
+- For IOS
+  $ yarn react-native start
 ```
 
 ---
