@@ -8,7 +8,7 @@
 
 ## Concepts
 
-- The application created is a event agregator for developers called Meetapp (acronymous for Meetup + App). It means that users will be able to create it owns meetups and also participate in meetups which were not created by the same user logged.
+- The application created is an event agregator for developers called Meetapp (acronymous for Meetup + App). It means that users will be able to create it owns meetups and also participate in meetups which were not created by the same user logged.
 - The backend application its an API which will allow: create, update and authenticate users (using encryption for password); create, update and list meetups; create, update and list subscription in meetups; notify meetup onwers, via e-mail, about new subscriptions; upload meetup banner and user avatar
 - By the the frontend and mobile applications will be possible the user sign up and manage it profile.
 - By the front end and mobile applications will be possible the user sign up and manage it profile.
